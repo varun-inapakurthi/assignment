@@ -1,7 +1,7 @@
 Steps to run the app: <br/>
     - Clone the repository <br/>
     - Run `npm install` <br/>
-    -PORT=5000
+    -PORT=5000 <br/>
     ________________________________________________________________________
 
     - User routes:
