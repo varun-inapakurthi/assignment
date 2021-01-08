@@ -1,17 +1,18 @@
 Steps to run the app:
     - Run `npm install` <br/>
     ________________________________________________________________________
-     - User routes: <br/>
-       1)User Register: (POST /api/auth/register) <br/>
-            { <br/>
-                "username":"username", <br/>
-                "password":"password", <br/>
-                "typeOfUser":"typeOfUser" (Seller or Buyer) <br/>
-            } <br/>
-        2)User Login: (POST /api/auth/login) <br/>
+
+    - User routes:
+       1)User Register: (POST /api/auth/register) 
+            { 
+                "username":"username",
+                "password":"password",
+                "typeOfUser":"typeOfUser" (Seller or Buyer) 
+            } 
+        2)User Login: (POST /api/auth/login) 
             {
-                "username":"username", <br/>
-                "password":"password" <br/>
+                "username":"username", 
+                "password":"password"
             }
     ____________________________________________________________________________
 
