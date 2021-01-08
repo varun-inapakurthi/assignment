@@ -1,18 +1,17 @@
 Steps to run the app:
     - Run `npm install` <br/>
-    <code>
     ________________________________________________________________________
-    - User routes:
-       1)User Register: (POST /api/auth/register)
+     - User routes: <br/>
+       1)User Register: (POST /api/auth/register) <br/>
+            { <br/>
+                "username":"username", <br/>
+                "password":"password", <br/>
+                "typeOfUser":"typeOfUser" (Seller or Buyer) <br/>
+            } <br/>
+        2)User Login: (POST /api/auth/login) <br/>
             {
-                "username":"username",
-                "password":"password",
-                "typeOfUser":"typeOfUser" (Seller or Buyer)
-            }
-        2)User Login: (POST /api/auth/login)
-            {
-                "username":"username",
-                "password":"password"
+                "username":"username", <br/>
+                "password":"password" <br/>
             }
     ____________________________________________________________________________
 
@@ -49,4 +48,3 @@ Steps to run the app:
             Note: 1)Product ids can be fetched from (GET /api/buyer/seller-catalog/:seller_id)
                   2)Products ids shuold only be from seller catalog
 
-</code>
