@@ -1,5 +1,5 @@
 Steps to run the app:
-    - Run `npm install\n`
+    - Run `npm install` <br/>
     - User routes:
        1)User Register: (POST /api/auth/register)
             {
