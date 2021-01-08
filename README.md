@@ -1,4 +1,4 @@
-Steps to run the app:
+Steps to run the app: <br/>
     - Clone the repository <br/>
     - Run `npm install` <br/>
     ________________________________________________________________________
